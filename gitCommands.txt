@@ -14,4 +14,7 @@ git add <fileName> #Incase of a specific file at hand
 git log #Tells about all the commits that have happened till now
 git status # Status of each file whether added or committed in the repo where git was initialised
 
-git commit -m <"message"> #Commit all the changes made in the repo by a commit message 
+git commit -m <"message"> #Commit all the changes made in the repo by a commit message
+
+Always it requires to have an initial commit before creating a branch
+git brach <branchName> 
