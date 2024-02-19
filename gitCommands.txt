@@ -1,0 +1,17 @@
+git init - to initialise a repo 
+
+git config user.name PranavPhanindra
+git config user.email pranavnag257@gmail.com
+
+Can declare even for global case also
+
+git config --global user.name PranavPhanindra
+git config --global user.email pranavnag257@gmail.com
+
+git add . # Adds all the elements into the stage where we can commit later
+git add <fileName> #Incase of a specific file at hand
+
+git log #Tells about all the commits that have happened till now
+git status # Status of each file whether added or committed in the repo where git was initialised
+
+git commit -m <"message"> #Commit all the changes made in the repo by a commit message 
