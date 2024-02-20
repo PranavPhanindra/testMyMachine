@@ -20,3 +20,6 @@ Always it requires to have an initial commit before creating a branch
 git brach <branchName>
 git branch -[options] branchName - To be explored
 git branch -m <NewName>
+
+Deleting a branch when we are on the branch would give us error regarding the file.
+So we need to change the branch and then delete
