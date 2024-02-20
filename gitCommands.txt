@@ -23,3 +23,8 @@ git branch -m <NewName>
 
 Deleting a branch when we are on the branch would give us error regarding the file.
 So we need to change the branch and then delete
+
+git merge <branchName> - merges the branch we are in and the branch we have given as argument
+
+Here we have the merging which can result in generating merge conflicts so we can abort the merge or we can resolve the conflict and continue to do the same
+git merge --abort #Aborts the merge process
