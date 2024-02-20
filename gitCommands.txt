@@ -19,3 +19,4 @@ git commit -m <"message"> #Commit all the changes made in the repo by a commit m
 Always it requires to have an initial commit before creating a branch
 git brach <branchName>
 git branch -[options] branchName - To be explored
+git branch -m <NewName>
