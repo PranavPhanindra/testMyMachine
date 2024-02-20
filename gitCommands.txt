@@ -17,6 +17,4 @@ git status # Status of each file whether added or committed in the repo where gi
 git commit -m <"message"> #Commit all the changes made in the repo by a commit message
 
 Always it requires to have an initial commit before creating a branch
-git brach <branchName> 
-trash1 
-trash2
+git brach <branchName>
