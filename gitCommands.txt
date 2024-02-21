@@ -48,3 +48,7 @@ git stash apply
 git stash list  
 git stash drop <stashName>
 git stash clear
+
+git checking out commits
+
+git checkout
