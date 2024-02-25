@@ -51,4 +51,11 @@ git stash clear
 
 git checking out commits
 
-git checkout
+git checkout <hexcode> 
+For <hexcode> use git log --oneline gives the MS 7 digits of hex code which can be used to move the head and head is detached from the actual 
+location now
+
+git switch - 
+git switch <branchName> 
+
+Either of the above two commands are enough to get back to the head to its original position
