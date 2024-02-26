@@ -59,3 +59,9 @@ git switch -
 git switch <branchName> 
 
 Either of the above two commands are enough to get back to the head to its original position
+
+git restore <fileNames>
+To roll back to the committed stage that was made changes on given fileNames
+
+to remove a file from staging area we can use 
+git restore --staged <fileNames>
