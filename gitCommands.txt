@@ -17,7 +17,7 @@ git status # Status of each file whether added or committed in the repo where gi
 git commit -m <"message"> #Commit all the changes made in the repo by a commit message
 
 Always it requires to have an initial commit before creating a branch
-git brach <branchName>
+git branch <branchName>
 git branch -[options] branchName - To be explored
 git branch -m <NewName>
 
@@ -65,3 +65,10 @@ To roll back to the committed stage that was made changes on given fileNames
 
 to remove a file from staging area we can use 
 git restore --staged <fileNames>
+
+
+git reset <hexcode> - To unstage the commits but remain in working directory 
+We cannot switch to a branch generally if there are changes made but we can change to a newly created branch 
+git switch - <branchName>
+and later commit the changes Here
+git reset --hard <hexcode> - To unstage and remove the changes in working directory 
